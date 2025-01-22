@@ -1,7 +1,11 @@
-
 \fancypagestyle{common}
 {
-    \fancyhead[L]{\zihao{5} \leftmark}
-    \fancyfoot[C]{\zihao{-5}\thepage}
-    \renewcommand{\headrulewidth}{0.6pt}
+    \commonhead{}
+    \fancyfoot{}
+    \ifthenelse{\equal{\TwoSide}{true}}{
+        \fancyfoot[OR,EL]{\zihao{-5} \songti \thepage}
+        % \fancyfoot[C]{\zihao{-5} \songti \thepage}
+    }{
+        \fancyfoot[C]{\zihao{-5} \songti \thepage}            
+    }
 }
