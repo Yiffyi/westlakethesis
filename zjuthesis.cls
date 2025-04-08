@@ -34,6 +34,7 @@
 \DeclareStringOption[true]{TwoSide}
 \DeclareBoolOption[true]{ListOfContents}
 \DeclareBoolOption[true]{ListOfFigures}
+\DeclareBoolOption[true]{ListOfFiguresNoCite}
 \DeclareBoolOption[true]{ListOfTables}
 \DeclareBoolOption[false]{ListOfAlgorithms}
 
