@@ -160,7 +160,8 @@
     % listoffigures
     \renewcommand{\cftfigpresnum}{\figurename\enspace}
     \newlength{\listoffiguresnamelen}
-    \settowidth{\listoffiguresnamelen}{\cftfigpresnum\cftfigaftersnum}
+    % \settowidth{\listoffiguresnamelen}{\cftfigpresnum\cftfigaftersnum}
+    \settowidth{\listoffiguresnamelen}{\cftfigpresnum00}
     \addtolength{\cftfignumwidth}{\listoffiguresnamelen}
 
     % listoftables
