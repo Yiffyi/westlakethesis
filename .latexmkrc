@@ -11,4 +11,4 @@ sub makenlo2nls {
  system("makeindex \"$_[0].nlo\" -s nomencl.ist -o \"$_[0].nls\" -t \"$_[0].nlg\"" );
 }
 
-@default_files=('zjuthesis.tex')
+@default_files=('westlakethesis.tex')

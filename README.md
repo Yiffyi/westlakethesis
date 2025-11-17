@@ -1,3 +1,9 @@
+# 西湖大学学位论文 LaTex 模板
+
+这是一个正在施工中的项目。更多信息请联系 jiayifei@westlake.edu.cn
+
+# >>>= 以下为原 REPO 的 README.md
+
 # 浙江大学学位论文 LaTeX 模板
 
 [![ZJUTHESIS](https://img.shields.io/badge/zjuthesis-latex-blue.svg)](https://thenetadmin.github.io/zjuthesis)

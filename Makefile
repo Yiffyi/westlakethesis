@@ -1,5 +1,5 @@
-.DEFAULT_GOALS := zjuthesis
+.DEFAULT_GOALS := westlakethesis
 
-.PHONY: zjuthesis
-zjuthesis:
+.PHONY: westlakethesis
+westlakethesis:
 	latexmk
