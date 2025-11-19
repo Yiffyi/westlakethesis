@@ -1,6 +1,6 @@
 $out_dir="out";
 $pdf_mode=5;
-$xelatex="xelatex -synctex=1";
+$xelatex="xelatex -synctex=1 -interaction=batchmode -halt-on-error";
 $xdvipdfmx="xdvipdfmx -q -E -o %D %O %S";
 $clean_ext = 'thm bbl hd loe xdv run.xml nlg nls';
 $makeindex = 'makeindex -s gind.ist %O -o %D %S';
