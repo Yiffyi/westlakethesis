@@ -74,10 +74,18 @@
     % undergraduate
     \ifthenelse{\equal{\Type}{thesis}}
     {
-        \newcommand{\TitleTypeName}{西湖大学本科生毕业论文}
+        \newcommand{\TitleTypeNameP}{西湖大学本科生毕业论文}
     }
     {
-        \newcommand{\TitleTypeName}{西湖大学本科生毕业设计}
+        \newcommand{\TitleTypeNameA}{西湖大学本科生毕业设计}
+    }
+
+    \ifthenelse{\equal{\Period}{proposal}}
+    {
+        \newcommand{\TitleTypeName}{\TitleTypeNameP~文献综述和开题报告}
+    }
+    {
+        \newcommand{\TitleTypeName}{\TitleTypeNameP}
     }
 }
 {
